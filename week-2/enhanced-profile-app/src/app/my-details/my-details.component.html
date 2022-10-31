@@ -1,0 +1,20 @@
+<!--
+Title: Exercise 2.3 - Data Binding
+Author: Professor Krasso
+Date: 30 Oct 2022
+Modified By: Kayla McDanel
+Description: Profile App
+Code Attribution: Code and instruction provided by Professor Krasso's videos and assignment docs.
+-->
+
+<ul class="list-group">
+  <li class="list-group-item"><strong>Name:</strong> {{ myProfile.fullName }}</li>
+  <li class="list-group-item"><strong>Favorite Food:</strong> {{ myProfile.favoriteFood }}</li>
+  <li class="list-group-item"><strong>Favorite Color:</strong> {{ myProfile.favoriteColor }}</li>
+  <li class="list-group-item"><strong>Keywords:</strong>
+  <span *ngFor="let word of myProfile.keywords">
+    {{ word }}
+  </span>
+  </li>
+
+</ul>
