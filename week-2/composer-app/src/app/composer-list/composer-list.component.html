@@ -1,0 +1,31 @@
+<!--
+Title: Assignment 2.4 - Routing in Action
+Author: Professor Krasso
+Date: 30 Oct 2022
+Modified By: Kayla McDanel
+Description: Composer App
+Code Attribution: Code and instruction provided by Professor Krasso's videos and assignment docs.
+-->
+
+
+<!-- Composer list to be created  -->
+<div class="row">
+  <div class="col-sm-12">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Full name</th>
+          <th scope="col">Genre</th>
+        </tr>
+      </thead>
+
+<!-- For statement to loop array -->
+      <tbody *ngFor="let composer of composers">
+        <tr>
+          <td scope="row">{{ composer.fullName }}</td>
+          <td scope="row">{{ composer.genre }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
