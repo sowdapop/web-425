@@ -8,7 +8,7 @@ export default class Person {
 
   constructor(fullName: string, favoriteFood: string, favoriteColor: string) {
     this.fullName = fullName;
-    this.favoriteFood = favoriteColor;
+    this.favoriteFood = favoriteFood;
     this.favoriteColor = favoriteColor;
   }
 
