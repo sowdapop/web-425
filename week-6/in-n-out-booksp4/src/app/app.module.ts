@@ -1,7 +1,7 @@
 
-  // Title: Assignment 5.4 - Dialogs
+  // Title: Exercise 6.2 - Output Properties
   // Author: Professor Krasso
-  // Date: 20 Nov 2022
+  // Date: 27 Nov 2022
   // Modified By: Kayla McDanel
   // Description: In-N-Out Books App
   // Code Attribution: Code and instruction provided by Professor Krasso's videos and assignment docs.
